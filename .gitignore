@@ -1,0 +1,6 @@
+customer_support_analytics/
+
+__pycache__/
+*.__pycache__.env
+.env
+.ipynb_checkpoints/
