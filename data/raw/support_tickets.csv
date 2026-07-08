@@ -1,0 +1,6 @@
+ticket_id,customer_id,created_at,product,issue_type,priority,status,ticket_text
+T001,C001,2026-07-01,Laptop,Hardware,High,Open,"Laptop screen flickers after startup"
+T002,C002,2026-07-01,Mobile App,Login,Medium,Closed,"Unable to login after password reset"
+T003,C003,2026-07-02,Payment,Refund,High,Open,"Refund not received after failed transaction"
+T004,C004,2026-07-02,Laptop,Performance,Low,Closed,"Laptop is slow after latest update"
+T005,C005,2026-07-03,Mobile App,Crash,High,Open,"App crashes when opening profile page"
