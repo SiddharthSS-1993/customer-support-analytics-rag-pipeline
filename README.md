@@ -1,33 +1,46 @@
 # Customer Support Intelligence Platform
 
-A production-style data engineering and AI platform for customer support analytics.
-
 ## Current Status
 
-- Project setup complete
-- Product requirements documented
-- High-level design documented
-- Medallion architecture decision recorded
+### Completed
+
+- Repository foundation
+- Product Requirements Document
+- High-Level Design
+- ADR-001: Medallion Architecture
+- Enterprise synthetic data generation framework
+
+### In Progress
+
+- Bronze ingestion for multiple datasets
+
+### Upcoming
+
+- Silver transformation layer
+- Gold analytics layer
+- DuckDB analytics
+- PySpark migration
+- Databricks deployment
+- RAG assistant
+
+## Current Data Sources
+
+| Dataset | Status |
+|----------|--------|
+| customers.csv | ✅ |
+| products.csv | ✅ |
+| agents.csv | ✅ |
+| sla_policies.csv | ✅ |
+| support_tickets.csv | ✅ |
 
 ## Architecture
 
-Raw Data Sources → Bronze Layer → Silver Layer → Gold Layer → Analytics and AI Interfaces
-
-## Planned Data Sources
-
-- Support tickets
-- Customers
-- Products
-- Support agents
-- SLA policies
-
-## Planned Capabilities
-
-- Bronze ingestion
-- Silver cleaning and enrichment
-- Gold business metrics
-- SQL analytics
-- DuckDB local analytics
-- PySpark scaling path
-- Databricks / Delta Lake version
-- RAG assistant over support data
+Raw Data Sources
+        ↓
+Bronze Layer
+        ↓
+Silver Layer
+        ↓
+Gold Layer
+        ↓
+Analytics / AI

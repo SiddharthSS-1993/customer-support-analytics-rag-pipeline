@@ -1,6 +1,12 @@
+# VIRTUAL ENVIRONMENT
 customer_support_analytics/
 
+# PYTHON
 __pycache__/
-*.__pycache__.env
-.env
+*.pyc
+
+# JUPYTER NOTEBOOKS
 .ipynb_checkpoints/
+
+# DATA FILES
+data/generated/

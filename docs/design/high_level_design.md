@@ -10,13 +10,19 @@ Raw Data Sources → Bronze Layer → Silver Layer → Gold Layer → Analytics 
 
 ## 2. Data Sources
 
-Initial planned sources:
+## 2. Data Sources
+
+The platform currently uses synthetic enterprise datasets generated locally for development and testing. This approach allows reproducible testing while avoiding the use of production or sensitive customer data.
+
+Current datasets:
 
 - Support tickets
 - Customers
 - Products
 - Support agents
 - SLA policies
+
+Future versions may ingest data from databases, cloud storage, APIs, and streaming platforms.
 
 ## 3. Bronze Layer
 
@@ -34,6 +40,19 @@ The Gold layer contains business-ready datasets and metrics such as ticket volum
 
 The Gold layer supports SQL analytics and reporting. Later phases will introduce semantic search and a RAG assistant for natural language exploration of support data.
 
-## 7. Scalability Approach
+## 7. Data Generation Strategy
+
+The platform includes a synthetic data generation framework capable of producing realistic business datasets at configurable scales.
+
+The generated datasets are intended for:
+
+- Local development
+- Functional testing
+- Performance testing
+- Pipeline validation
+
+Small sample datasets may be committed to the repository, while larger generated datasets remain outside source control.
+
+## 8. Scalability Approach
 
 The system starts with local execution for fast development and reproducibility. It is designed to evolve toward larger datasets, distributed processing, and cloud execution as the workload grows.
