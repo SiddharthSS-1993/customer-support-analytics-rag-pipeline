@@ -1,0 +1,51 @@
+agent_id,agent_name,support_team,experience_level,active_flag
+A0001,John Henderson,Technical Support,Junior,False
+A0002,Crystal Carlson,Customer Care,Intermediate,True
+A0003,Kristi Foster,Billing Support,Senior,False
+A0004,David Daugherty,Customer Care,Intermediate,False
+A0005,Ariel Riley,Technical Support,Senior,True
+A0006,Kyle Gray,Customer Care,Intermediate,False
+A0007,Alexander Douglas,Customer Care,Junior,True
+A0008,Renee Evans,Technical Support,Senior,True
+A0009,Danielle Williams,Escalations,Senior,False
+A0010,Yvonne Fleming,Technical Support,Intermediate,False
+A0011,Steven Hensley,Escalations,Junior,False
+A0012,Jessica Jenkins,Escalations,Junior,True
+A0013,Jeffrey Martin,Billing Support,Junior,False
+A0014,Tara Edwards,Billing Support,Senior,False
+A0015,Katherine Ramos,Technical Support,Senior,False
+A0016,Alyssa Hayes,Customer Care,Senior,True
+A0017,Patricia Oconnell,Customer Care,Intermediate,True
+A0018,Jonathan Franklin,Billing Support,Intermediate,True
+A0019,David Casey,Technical Support,Junior,True
+A0020,Jared James,Billing Support,Intermediate,True
+A0021,Mark Townsend,Customer Care,Senior,False
+A0022,Dylan Rodriguez,Escalations,Senior,True
+A0023,Lindsey Reed,Technical Support,Junior,False
+A0024,Alexa Frederick,Escalations,Senior,False
+A0025,Scott Wilson,Escalations,Intermediate,True
+A0026,Christopher Gill,Billing Support,Intermediate,True
+A0027,Vincent Mendoza,Escalations,Intermediate,False
+A0028,Emily Taylor,Billing Support,Senior,True
+A0029,Austin Johnson,Billing Support,Intermediate,True
+A0030,Douglas Lucero,Technical Support,Senior,True
+A0031,Thomas Christian,Customer Care,Junior,True
+A0032,Danielle Robles,Customer Care,Senior,True
+A0033,Wendy Smith,Customer Care,Senior,False
+A0034,Kimberly Rodriguez,Technical Support,Intermediate,True
+A0035,Vicki Olson,Customer Care,Junior,False
+A0036,Justin Gonzalez Jr.,Technical Support,Senior,True
+A0037,Sonya Howard,Billing Support,Junior,False
+A0038,Stephanie Galvan,Technical Support,Junior,True
+A0039,Chad Higgins,Technical Support,Senior,False
+A0040,Sarah Little,Billing Support,Senior,False
+A0041,Charles Rodriguez,Technical Support,Intermediate,False
+A0042,Damon King,Customer Care,Intermediate,True
+A0043,Stacey Peterson,Escalations,Intermediate,False
+A0044,Michael Blair,Technical Support,Senior,True
+A0045,Kim Murray,Billing Support,Intermediate,False
+A0046,Robert Jackson,Escalations,Intermediate,True
+A0047,Dr. Carrie Anderson,Customer Care,Senior,True
+A0048,Melissa Hall,Customer Care,Senior,False
+A0049,David Robles,Customer Care,Intermediate,True
+A0050,Debra Johnson,Customer Care,Senior,True

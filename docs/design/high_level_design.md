@@ -8,9 +8,50 @@ The system follows a layered architecture:
 
 Raw Data Sources → Bronze Layer → Silver Layer → Gold Layer → Analytics and AI Interfaces
 
-## 2. Data Sources
+## 2. Architecture Overview
 
-## 2. Data Sources
+                    +----------------------+
+                    | Synthetic Data       |
+                    | Generation Framework |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Raw Source Datasets  |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Bronze Pipeline      |
+                    |----------------------|
+                    | Configuration        |
+                    | Logging              |
+                    | File Utilities       |
+                    | Pipeline             |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Bronze Layer         |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Silver Layer         |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Gold Layer           |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Analytics & AI       |
+                    +----------------------+
+
+
+## 3. Data Sources
 
 The platform currently uses synthetic enterprise datasets generated locally for development and testing. This approach allows reproducible testing while avoiding the use of production or sensitive customer data.
 
@@ -24,23 +65,40 @@ Current datasets:
 
 Future versions may ingest data from databases, cloud storage, APIs, and streaming platforms.
 
-## 3. Bronze Layer
+## 4. Bronze Layer
 
-The Bronze layer stores raw ingested data with minimal transformation. Its purpose is to preserve source data for auditability, reprocessing, and debugging.
+The Bronze layer ingests raw source datasets with minimal transformation while preserving source fidelity for auditing, reprocessing, and debugging.
 
-## 4. Silver Layer
+The current ingestion framework is configuration-driven and consists of the following components:
+
+- Configuration management
+- Pipeline orchestration
+- Centralized logging
+- Reusable file utilities
+
+Each configured dataset is independently ingested into the Bronze layer, allowing ingestion failures to be isolated without preventing unrelated datasets from being processed.
+
+The current Bronze implementation processes the following datasets:
+
+- Customers
+- Products
+- Support Agents
+- SLA Policies
+- Support Tickets
+
+## 5. Silver Layer
 
 The Silver layer contains cleaned, validated, and enriched data. This layer joins tickets with customer, product, agent, and SLA reference data.
 
-## 5. Gold Layer
+## 6. Gold Layer
 
 The Gold layer contains business-ready datasets and metrics such as ticket volume trends, SLA breach rates, product issue trends, and agent performance summaries.
 
-## 6. Analytics and AI Interfaces
+## 7. Analytics and AI Interfaces
 
 The Gold layer supports SQL analytics and reporting. Later phases will introduce semantic search and a RAG assistant for natural language exploration of support data.
 
-## 7. Data Generation Strategy
+## 8. Data Generation Strategy
 
 The platform includes a synthetic data generation framework capable of producing realistic business datasets at configurable scales.
 
@@ -53,6 +111,6 @@ The generated datasets are intended for:
 
 Small sample datasets may be committed to the repository, while larger generated datasets remain outside source control.
 
-## 8. Scalability Approach
+## 9. Scalability Approach
 
 The system starts with local execution for fast development and reproducibility. It is designed to evolve toward larger datasets, distributed processing, and cloud execution as the workload grows.

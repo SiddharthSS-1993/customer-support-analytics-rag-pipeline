@@ -10,3 +10,6 @@ __pycache__/
 
 # DATA FILES
 data/generated/
+
+# LOGGER
+logs/

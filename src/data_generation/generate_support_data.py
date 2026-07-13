@@ -200,7 +200,7 @@ def generate_all_datasets() -> None:
     write_dataset(products, "products.csv")
     write_dataset(agents, "agents.csv")
     write_dataset(sla_policies, "sla_policies.csv")
-    write_dataset(tickets, "tickets.csv")
+    write_dataset(tickets, "support_tickets.csv")
 
 if __name__ == "__main__":
     generate_all_datasets()

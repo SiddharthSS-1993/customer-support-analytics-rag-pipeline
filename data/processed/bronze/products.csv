@@ -1,0 +1,101 @@
+product_id,product_name,product_category,product_status
+P0001,Mobile Application Product 1,Mobile Application,Active
+P0002,Mobile Application Product 2,Mobile Application,Active
+P0003,Cloud Storage Product 3,Cloud Storage,Active
+P0004,Cloud Storage Product 4,Cloud Storage,Active
+P0005,Mobile Application Product 5,Mobile Application,Retired
+P0006,Gaming Product 6,Gaming,Active
+P0007,Cloud Storage Product 7,Cloud Storage,Active
+P0008,Gaming Product 8,Gaming,Active
+P0009,Payments Product 9,Payments,Retired
+P0010,Mobile Application Product 10,Mobile Application,Active
+P0011,Gaming Product 11,Gaming,Retired
+P0012,Cloud Storage Product 12,Cloud Storage,Active
+P0013,Cloud Storage Product 13,Cloud Storage,Retired
+P0014,Mobile Application Product 14,Mobile Application,Active
+P0015,Gaming Product 15,Gaming,Active
+P0016,Payments Product 16,Payments,Active
+P0017,Cloud Storage Product 17,Cloud Storage,Active
+P0018,Gaming Product 18,Gaming,Active
+P0019,Gaming Product 19,Gaming,Active
+P0020,Payments Product 20,Payments,Active
+P0021,Mobile Application Product 21,Mobile Application,Active
+P0022,Cloud Storage Product 22,Cloud Storage,Active
+P0023,Cloud Storage Product 23,Cloud Storage,Active
+P0024,Mobile Application Product 24,Mobile Application,Retired
+P0025,Payments Product 25,Payments,Active
+P0026,Cloud Storage Product 26,Cloud Storage,Active
+P0027,Cloud Storage Product 27,Cloud Storage,Active
+P0028,Mobile Application Product 28,Mobile Application,Retired
+P0029,Laptop Product 29,Laptop,Active
+P0030,Mobile Application Product 30,Mobile Application,Active
+P0031,Payments Product 31,Payments,Active
+P0032,Payments Product 32,Payments,Active
+P0033,Mobile Application Product 33,Mobile Application,Active
+P0034,Payments Product 34,Payments,Retired
+P0035,Mobile Application Product 35,Mobile Application,Retired
+P0036,Cloud Storage Product 36,Cloud Storage,Active
+P0037,Laptop Product 37,Laptop,Active
+P0038,Payments Product 38,Payments,Active
+P0039,Mobile Application Product 39,Mobile Application,Retired
+P0040,Laptop Product 40,Laptop,Active
+P0041,Mobile Application Product 41,Mobile Application,Active
+P0042,Laptop Product 42,Laptop,Active
+P0043,Mobile Application Product 43,Mobile Application,Retired
+P0044,Gaming Product 44,Gaming,Retired
+P0045,Laptop Product 45,Laptop,Active
+P0046,Cloud Storage Product 46,Cloud Storage,Active
+P0047,Gaming Product 47,Gaming,Active
+P0048,Mobile Application Product 48,Mobile Application,Active
+P0049,Cloud Storage Product 49,Cloud Storage,Active
+P0050,Gaming Product 50,Gaming,Active
+P0051,Mobile Application Product 51,Mobile Application,Retired
+P0052,Mobile Application Product 52,Mobile Application,Active
+P0053,Gaming Product 53,Gaming,Active
+P0054,Laptop Product 54,Laptop,Active
+P0055,Cloud Storage Product 55,Cloud Storage,Retired
+P0056,Laptop Product 56,Laptop,Retired
+P0057,Payments Product 57,Payments,Active
+P0058,Laptop Product 58,Laptop,Active
+P0059,Laptop Product 59,Laptop,Active
+P0060,Mobile Application Product 60,Mobile Application,Active
+P0061,Gaming Product 61,Gaming,Active
+P0062,Mobile Application Product 62,Mobile Application,Active
+P0063,Payments Product 63,Payments,Active
+P0064,Mobile Application Product 64,Mobile Application,Retired
+P0065,Cloud Storage Product 65,Cloud Storage,Active
+P0066,Mobile Application Product 66,Mobile Application,Active
+P0067,Cloud Storage Product 67,Cloud Storage,Active
+P0068,Payments Product 68,Payments,Active
+P0069,Laptop Product 69,Laptop,Active
+P0070,Laptop Product 70,Laptop,Active
+P0071,Payments Product 71,Payments,Retired
+P0072,Gaming Product 72,Gaming,Retired
+P0073,Payments Product 73,Payments,Active
+P0074,Mobile Application Product 74,Mobile Application,Active
+P0075,Payments Product 75,Payments,Active
+P0076,Payments Product 76,Payments,Active
+P0077,Laptop Product 77,Laptop,Active
+P0078,Cloud Storage Product 78,Cloud Storage,Retired
+P0079,Cloud Storage Product 79,Cloud Storage,Retired
+P0080,Payments Product 80,Payments,Active
+P0081,Cloud Storage Product 81,Cloud Storage,Retired
+P0082,Payments Product 82,Payments,Active
+P0083,Laptop Product 83,Laptop,Retired
+P0084,Laptop Product 84,Laptop,Retired
+P0085,Gaming Product 85,Gaming,Active
+P0086,Gaming Product 86,Gaming,Active
+P0087,Payments Product 87,Payments,Active
+P0088,Laptop Product 88,Laptop,Active
+P0089,Payments Product 89,Payments,Active
+P0090,Cloud Storage Product 90,Cloud Storage,Retired
+P0091,Mobile Application Product 91,Mobile Application,Retired
+P0092,Payments Product 92,Payments,Retired
+P0093,Laptop Product 93,Laptop,Active
+P0094,Gaming Product 94,Gaming,Retired
+P0095,Payments Product 95,Payments,Active
+P0096,Laptop Product 96,Laptop,Retired
+P0097,Payments Product 97,Payments,Active
+P0098,Laptop Product 98,Laptop,Active
+P0099,Gaming Product 99,Gaming,Retired
+P0100,Laptop Product 100,Laptop,Active

@@ -7,21 +7,10 @@
 - Repository foundation
 - Product Requirements Document
 - High-Level Design
-- ADR-001: Medallion Architecture
+- ADR-001: Layered Data Platform Architecture
+- ADR-002: Synthetic Data Generation
 - Enterprise synthetic data generation framework
-
-### In Progress
-
-- Bronze ingestion for multiple datasets
-
-### Upcoming
-
-- Silver transformation layer
-- Gold analytics layer
-- DuckDB analytics
-- PySpark migration
-- Databricks deployment
-- RAG assistant
+- Configurable Bronze ingestion framework
 
 ## Current Data Sources
 
@@ -32,6 +21,31 @@
 | agents.csv | ✅ |
 | sla_policies.csv | ✅ |
 | support_tickets.csv | ✅ |
+
+
+### Current Bronze Capabilities
+
+- Configuration-driven ingestion
+- Multi-dataset processing
+- Centralized logging
+- Reusable file utilities
+- Pipeline orchestration
+
+
+### In Progress
+
+- Bronze data validation for quality framework
+
+
+### Upcoming
+
+- Silver transformation layer
+- Gold analytics layer
+- DuckDB analytics
+- PySpark migration
+- Databricks deployment
+- RAG assistant
+
 
 ## Architecture
 

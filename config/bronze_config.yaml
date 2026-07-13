@@ -1,0 +1,11 @@
+# Bronze Layer Configuration
+
+RAW_DATA_DIRECTORY: data/generated/raw
+BRONZE_OUTPUT_DIRECTORY: data/processed/bronze
+
+datasets:
+  - customers
+  - products
+  - agents
+  - sla_policies
+  - support_tickets
